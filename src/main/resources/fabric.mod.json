@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "mob_factions",
+  "version": "1.0.1",
+  "name": "Mob Factions",
+  "description": "A fully configurable way to makes mobs agreesive or passive with other mobs, edited using in-game commands (does not save until you exit the world)",
+  "authors": [
+    "Spiderman31807"
+  ],
+  "contact": {
+    "homepage": "https://www.curseforge.com/minecraft/mc-mods/mob-factions",
+    "sources": ""
+  },
+  "license": "GNU General Public License version 3 (GPLv3)",
+  "icon": "logo.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "mobfactions.MobFactionsMod"
+    ],
+    "client": [
+      "mobfactions.MobFactionsModClient"
+    ]
+  },
+  "mixins": [
+    "mob_factions.mixins.json",
+    "mixins.mob_factions.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.17.2",
+    "minecraft": "~1.21.8",
+    "java": ">=21",
+    "fabric-api": "*"
+  },
+  "suggests": {
+    "mob_factions": "*"
+  }
+}

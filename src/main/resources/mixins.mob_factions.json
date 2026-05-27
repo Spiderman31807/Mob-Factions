@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "package": "mobfactions.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "EntityMixin",
+    "MobMixin",
+    "AbstractIllagerMixin"
+  ],
+  "client": [],
+  "minVersion": "0.8"
+}
