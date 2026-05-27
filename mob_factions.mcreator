@@ -1,149 +1,74 @@
 {
   "mod_elements": [
     {
-      "name": "Events",
+      "name": "Faction",
       "type": "code",
       "compiles": true,
       "locked_code": true,
-      "registry_name": "events",
+      "registry_name": "faction",
       "metadata": {
         "files": [
-          "src/main/java/mobfactions/Events.java"
+          "src/main/java/mobfactions/Faction.java"
         ]
       }
     },
     {
-      "name": "FactionAttackGoal",
+      "name": "FactionManager",
       "type": "code",
       "compiles": true,
       "locked_code": true,
-      "registry_name": "faction_attack_goal",
+      "registry_name": "faction_manager",
       "metadata": {
         "files": [
-          "src/main/java/mobfactions/FactionAttackGoal.java"
+          "src/main/java/mobfactions/FactionManager.java"
         ]
       }
     },
     {
-      "name": "Factions",
+      "name": "FactionMember",
       "type": "code",
       "compiles": true,
       "locked_code": true,
-      "registry_name": "factions",
+      "registry_name": "faction_member",
       "metadata": {
         "files": [
-          "src/main/java/mobfactions/Factions.java"
+          "src/main/java/mobfactions/FactionMember.java"
         ]
       }
     },
     {
-      "name": "FactionData",
+      "name": "FactionCache",
       "type": "code",
       "compiles": true,
       "locked_code": true,
-      "registry_name": "faction_data",
+      "registry_name": "faction_cache",
       "metadata": {
         "files": [
-          "src/main/java/mobfactions/FactionData.java"
+          "src/main/java/mobfactions/FactionCache.java"
         ]
       }
     },
     {
-      "name": "Settings",
+      "name": "MobMixin",
       "type": "code",
       "compiles": true,
       "locked_code": true,
-      "registry_name": "settings",
+      "registry_name": "mob_mixin",
       "metadata": {
         "files": [
-          "src/main/java/mobfactions/Settings.java"
+          "src/main/java/mobfactions/MobMixin.java"
         ]
       }
     },
     {
-      "name": "Configs",
+      "name": "EntityMixin",
       "type": "code",
       "compiles": true,
       "locked_code": true,
-      "registry_name": "configs",
+      "registry_name": "entity_mixin",
       "metadata": {
         "files": [
-          "src/main/java/mobfactions/Configs.java"
-        ]
-      }
-    },
-    {
-      "name": "Basic",
-      "type": "mixin",
-      "compiles": true,
-      "locked_code": true,
-      "registry_name": "basic",
-      "metadata": {
-        "files": [
-          "src/main/java/mobfactions/mixins/BasicMixin.java"
-        ]
-      }
-    },
-    {
-      "name": "FactionScreen",
-      "type": "code",
-      "compiles": true,
-      "locked_code": true,
-      "registry_name": "faction_screen",
-      "metadata": {
-        "files": [
-          "src/main/java/mobfactions/FactionScreen.java"
-        ]
-      },
-      "path": "~/FactionUI"
-    },
-    {
-      "name": "FactionMenu",
-      "type": "code",
-      "compiles": true,
-      "locked_code": true,
-      "registry_name": "faction_menu",
-      "metadata": {
-        "files": [
-          "src/main/java/mobfactions/FactionMenu.java"
-        ]
-      },
-      "path": "~/FactionUI"
-    },
-    {
-      "name": "FactionScrollWidget",
-      "type": "code",
-      "compiles": true,
-      "locked_code": true,
-      "registry_name": "faction_scroll_widget",
-      "metadata": {
-        "files": [
-          "src/main/java/mobfactions/FactionScrollWidget.java"
-        ]
-      },
-      "path": "~/FactionUI"
-    },
-    {
-      "name": "Menus",
-      "type": "code",
-      "compiles": true,
-      "locked_code": true,
-      "registry_name": "menus",
-      "metadata": {
-        "files": [
-          "src/main/java/mobfactions/Menus.java"
-        ]
-      }
-    },
-    {
-      "name": "Screens",
-      "type": "code",
-      "compiles": true,
-      "locked_code": true,
-      "registry_name": "screens",
-      "metadata": {
-        "files": [
-          "src/main/java/mobfactions/Screens.java"
+          "src/main/java/mobfactions/EntityMixin.java"
         ]
       }
     }
@@ -153,60 +78,33 @@
   "tag_elements": {},
   "tab_element_order": {},
   "language_map": {
-    "en_us": {
-      "faction.feedback.removeEntity": "Removed entity: ",
-      "ally.dupe": "Faction allies already contains ",
-      "faction.already_enemy": "Enemy faction can\u0027t be added as an Ally faction",
-      "faction.feedback.removeAlly": "Removed ally: ",
-      "faction.feedback.addAlly": "Added ally: ",
-      "faction.display.enemies": "Enemies: ",
-      "faction.already_ally": "Ally faction can\u0027t be added as an Enemy faction",
-      "faction.feedback.create": "Created Faction: ",
-      "faction.display.all": "Faction Data:",
-      "enemy.missing": "Faction enemies doesn\u0027t contain ",
-      "faction.feedback.remove": "Removed Faction: ",
-      "entity.dupe": "Faction entities already contains ",
-      "faction.display.entities": "Entities: ",
-      "faction.feedback.addEntity": "Added entity: ",
-      "enemy.dupe": "Faction enemies already contains ",
-      "ally.missing": "Faction allies doesn\u0027t contain ",
-      "faction.display.allies": "Allies: ",
-      "faction.ui.create": "Create Faction",
-      "faction.dupe": "Faction already defined",
-      "faction.feedback.removeEnemy": "Removed enemy: ",
-      "faction.reset": "Reset all faction data to default",
-      "faction.feedback.addEnemy": "Added enemy: ",
-      "faction.missing": "Faction doesn\u0027t exist",
-      "entity.missing": "Faction entities doesn\u0027t contain ",
-      "faction.display": "Faction: "
-    }
+    "en_us": {}
+  },
+  "metadata": {
+    "files": [
+      "src/main/resources/pack.mcmeta",
+      "src/main/java/mobfactions/MobFactionsMod.java",
+      "src/main/resources/META-INF/mods.toml"
+    ]
   },
   "foldersRoot": {
     "name": "~",
-    "children": [
-      {
-        "name": "FactionUI",
-        "children": []
-      }
-    ]
+    "children": []
   },
   "workspaceSettings": {
     "modid": "mob_factions",
     "modName": "Mob Factions",
     "version": "1.0.0",
-    "description": "A fully customiseable faction based attacking system for any mob (that doesn\u0027t use a brain instead of goals)",
-    "author": "Spiderman318",
-    "websiteURL": "https://www.curseforge.com/minecraft/mc-mods/mob-factions",
-    "license": "GNU General Public License version 3 (GPLv3)",
-    "serverSideOnly": true,
-    "modPicture": "logo",
+    "author": "MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Not specified",
+    "serverSideOnly": false,
     "requiredMods": [],
     "dependencies": [],
     "dependants": [],
     "mcreatorDependencies": [],
     "currentGenerator": "forge-1.20.1",
-    "credits": "Spiderman31807",
     "modElementsPackage": "mobfactions"
   },
-  "mcreatorVersion": 202400452410
+  "mcreatorVersion": 202500226612
 }
