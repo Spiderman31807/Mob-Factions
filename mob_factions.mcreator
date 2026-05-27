@@ -1,0 +1,209 @@
+{
+  "mod_elements": [
+    {
+      "name": "Faction",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "faction",
+      "metadata": {
+        "files": [
+          "src/main/java/mobfactions/Faction.java"
+        ]
+      }
+    },
+    {
+      "name": "FactionManager",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "faction_manager",
+      "metadata": {
+        "files": [
+          "src/main/java/mobfactions/FactionManager.java"
+        ]
+      }
+    },
+    {
+      "name": "FactionHolder",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "faction_holder",
+      "metadata": {
+        "files": [
+          "src/main/java/mobfactions/FactionHolder.java"
+        ]
+      }
+    },
+    {
+      "name": "EntityMixin",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "entity_mixin",
+      "metadata": {
+        "files": [
+          "src/main/java/mobfactions/EntityMixin.java"
+        ]
+      }
+    },
+    {
+      "name": "Events",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "events",
+      "metadata": {
+        "files": [
+          "src/main/java/mobfactions/Events.java"
+        ]
+      }
+    },
+    {
+      "name": "DefaultFactionsBundle",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "default_factions_bundle",
+      "metadata": {
+        "files": [
+          "src/main/java/mobfactions/DefaultFactionsBundle.java"
+        ]
+      }
+    },
+    {
+      "name": "FactionCommand",
+      "type": "code",
+      "compiles": false,
+      "locked_code": true,
+      "registry_name": "faction_command",
+      "metadata": {
+        "files": [
+          "src/main/java/mobfactions/FactionCommand.java"
+        ]
+      }
+    },
+    {
+      "name": "FactionArgument",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "faction_argument",
+      "metadata": {
+        "files": [
+          "src/main/java/mobfactions/FactionArgument.java"
+        ]
+      }
+    },
+    {
+      "name": "ArgumentTypeInfosMixin",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "argument_type_infos_mixin",
+      "metadata": {
+        "files": [
+          "src/main/java/mobfactions/ArgumentTypeInfosMixin.java"
+        ]
+      }
+    },
+    {
+      "name": "AbstractIllagerMixin",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "abstract_illager_mixin",
+      "metadata": {
+        "files": [
+          "src/main/java/mobfactions/AbstractIllagerMixin.java"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {},
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "command.mob_faction.success_modify.end_alliance": "Ended alliance between [%s] faction \u0026 [%s] faction",
+      "command.mob_faction.failure_clear": "No factions to remove",
+      "command.mob_faction.success_modify.end_war": "Ended war between [%s] faction \u0026 [%s] faction",
+      "command.mob_faction.success_create": "Created new faction [%s]",
+      "command.mob_faction.success_modify.entity_remove": "Removed %s from [%s] faction",
+      "command.mob_faction.failure_modify.start_alliance_allied": "[%s] faction already has an alliance with [%s] faction",
+      "command.mob_faction.failure_modify.entity_hostile_clear": "[%s] faction has no hostiles to remove",
+      "arguments.faction.not_found": "Unknown faction `%s`",
+      "command.mob_faction.failure_modify.end_alliance": "[%s] faction does not have an alliance with [%s] faction",
+      "command.mob_faction.failure_modify.start_alliance_conflict": "Unable to start alliance between [%s] faction \u0026 [%s] faction",
+      "command.mob_faction.failure_access": "You do not meet the requirements to use this command",
+      "command.mob_faction.failure_modify.entity_allies_add": "%s is already an ally for [%s] faction",
+      "command.mob_faction.failure_modify.entity_hostile_remove": "%s is not a hostile to [%s] faction",
+      "command.mob_faction.success_modify.entity_hostile_add": "Added %s as a hostile for [%s] faction",
+      "command.mob_faction.success_modify.alliance_clear": "Ended all alliances for [%s] faction",
+      "command.mob_faction.success_query.entity_type": "Entities:%s",
+      "command.mob_faction.failure_modify.end_war": "[%s] faction is not enemies with [%s] faction",
+      "command.mob_faction.failure_reset": "Factions are already the default values",
+      "command.mob_faction.success_modify.start_alliance": "Started an alliance between [%s] faction \u0026 [%s] faction",
+      "command.mob_faction.failure_modify.start_war_conflict": "Unable to start war between [%s] faction \u0026 [%s] faction",
+      "command.mob_faction.success_save": "Saved current faction config to world file",
+      "command.mob_faction.success_query.faction": "Factions:%s",
+      "command.mob_faction.failure_modify.war_clear": "[%s] faction has no enemies to remove",
+      "command.mob_faction.failure_list": "No factions to list",
+      "command.mob_faction.success_modify.entity_hostile_clear": "Removed all hostiles in [%s] faction",
+      "command.mob_faction.failure_modify.alliance_clear": "[%s] faction has no alliances to remove",
+      "command.mob_faction.failure_modify.entity_allies_clear": "[%s] faction has no allies to remove",
+      "command.mob_faction.success_reset": "Reset factions to default values",
+      "command.mob_faction.failure_modify.start_war": "[%s] faction is already enemies with [%s] faction",
+      "command.mob_faction.failure_modify.entity_clear": "[%s] faction has no members to remove",
+      "command.mob_faction.success_modify.entity_allies_remove": "Removed %s as an ally for [%s] faction",
+      "command.mob_faction.failure_modify.entity_hostile_add": "%s is already a hostile for [%s] faction",
+      "command.mob_faction.failure_modify.entity_allies_remove": "%s is not an ally for [%s] faction",
+      "command.mob_faction.failure_query.faction": "No factions to display",
+      "command.mob_faction.failure_modify.entity_add": "%s is already a member of [%s] faction",
+      "command.mob_faction.success_modify.entity_allies_clear": "Removed all allies in [%s] faction",
+      "command.mob_faction.success_modify.entity_hostile_remove": "Removed %s as a hostile for [%s] faction",
+      "command.mob_faction.success_clear": "Removed %d faction(s)",
+      "command.mob_faction.success_modify.entity_add": "Added %s to [%s] faction",
+      "command.mob_faction.success_modify.entity_allies_add": "Added %s as an ally for [%s] faction",
+      "command.mob_faction.success_modify.war_clear": "Ended all wars for [%s] faction",
+      "command.mob_faction.success_list": "Factions:%s",
+      "command.mob_faction.success_remove": "Removed faction [%s]",
+      "command.mob_faction.success_modify.start_war": "Started war between [%s] faction \u0026 [%s] faction",
+      "command.mob_faction.success_modify.entity_clear": "Removed all members in [%s] faction",
+      "command.mob_faction.failure_query.entity_type": "No entities to display",
+      "command.mob_faction.failure_modify.entity_remove": "%s is not a member of [%s] faction"
+    }
+  },
+  "metadata": {
+    "files": [
+      "src/main/java/mobfactions/MobFactionsMod.java",
+      "src/main/resources/META-INF/neoforge.mods.toml",
+      "src/main/resources/pack.mcmeta"
+    ]
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "mob_factions",
+    "modName": "Mob Factions",
+    "version": "1.0.1",
+    "description": "A fully configurable way to makes mobs agreesive or passive with other mobs, edited using in-game commands (does not save until you exit the world)",
+    "author": "Spiderman31807",
+    "websiteURL": "https://mcreator.net",
+    "license": "GNU General Public License version 3 (GPLv3)",
+    "serverSideOnly": true,
+    "modPicture": "mobfactions_logo",
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "neoforge-1.21.4",
+    "credits": "Spiderman31807",
+    "modElementsPackage": "mobfactions"
+  },
+  "mcreatorVersion": 202500226612
+}

@@ -1,0 +1,43 @@
+modLoader="javafml"
+loaderVersion="[4,)"
+license="GNU General Public License version 3 (GPLv3)"
+
+[[mods]]
+modId="mob_factions"
+version="1.0.1"
+displayName="Mob Factions"
+displayURL="https://mcreator.net"
+logoFile="logo.png"
+credits="Spiderman31807"
+authors="Spiderman31807"
+description="A fully configurable way to makes mobs agreesive or passive with other mobs, edited using in-game commands (does not save until you exit the world)"
+displayTest="IGNORE_SERVER_VERSION"
+
+# Start of user code block mod configuration
+# End of user code block mod configuration
+
+
+# Start of user code block custom mixins
+# End of user code block custom mixins
+
+[[dependencies.mob_factions]]
+modId="neoforge"
+type="required"
+versionRange="[21.4.137,)"
+ordering="AFTER"
+side="BOTH"
+
+[[dependencies.mob_factions]]
+modId="minecraft"
+type="required"
+versionRange="[1.21.4]"
+ordering="AFTER"
+side="BOTH"
+
+
+
+
+# Start of user code block dependencies configuration
+[[mixins]]
+config="mixins.mob_factions.json"
+# End of user code block dependencies configuration

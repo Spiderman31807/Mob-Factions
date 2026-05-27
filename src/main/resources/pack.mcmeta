@@ -1,0 +1,6 @@
+{
+  "pack": {
+    "pack_format": 61,
+    "description": "A fully configurable way to makes mobs agreesive or passive with other mobs, edited using in-game commands (does not save until you exit the world)"
+  }
+}
